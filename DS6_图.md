@@ -1,10 +1,3 @@
----
-title: 图 | DS
-date: 2024-01-26 09:31:06
-tags: 数据结构
-categories: 考研408
----
-
 ## 基本概念
 
 <u>**图的定义**</u>
@@ -170,6 +163,7 @@ categories: 考研408
 > 在简单应用中，可直接用二维数组作为图的邻接矩阵（顶点信息等均可省略）。
 
 <div align=left><img src="https://pic-zerooo.oss-cn-beijing.aliyuncs.com/ungee/image-20240126112513486.png" width="600px"/></dev>
+
 <u>**无权图的邻接矩阵**</u>
 
 $A[i][j]=1$ 表示 ($v_i$, $v_j$) 或 <$v_i$, $v_j$> 在图中存在；$A[i][j]=0$ 表示 ($v_i$, $v_j$) 或 <$v_i$, $v_j$> 在图中不存在。
@@ -211,6 +205,7 @@ $A[i][j]=w_{ij}$ 表示 ($v_i$, $v_j$) 或 <$v_i$, $v_j$> 在图中存在且权�
 <div align=left><img src="https://pic-zerooo.oss-cn-beijing.aliyuncs.com/ungee/D6Fg6UXihZf4gca.png" width="450px"/></dev>
 
 <div align=left><img src="https://pic-zerooo.oss-cn-beijing.aliyuncs.com/ungee/ZkFptp1mWhXjojI.png" width="390px"/></dev>
+
 对于有向图，边表即为出边表。
 
 **<u>特点</u>**
@@ -237,6 +232,7 @@ $A[i][j]=w_{ij}$ 表示 ($v_i$, $v_j$) 或 <$v_i$, $v_j$> 在图中存在且权�
 <div align=left><img src="https://pic-zerooo.oss-cn-beijing.aliyuncs.com/ungee/eMSEf3flcTnGvMA.png" width="550px"/></dev>
 
 <div align=left><img src="https://pic-zerooo.oss-cn-beijing.aliyuncs.com/ungee/mqbCTKxf4jjOWET.png" width="550px"/></dev>
+
 **<u>弧结点</u>**
 
 `tailvex` 域指示弧尾顶点编号，`headvex` 域指示弧头顶点编号，`hlink` 域指向弧头相同的下一条弧，`tlink` 域指向弧尾相同的下一条弧，`info` 域存放该弧的相关信息（可省）。
